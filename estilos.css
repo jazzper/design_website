@@ -1,0 +1,154 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* Fuentes
+----------------------------------------------*/
+
+@font-face {
+    font-family: 'webfont_bold';
+    src: url('font/caecilialtstd-bold-webfont.eot');
+    src: url('font/caecilialtstd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/caecilialtstd-bold-webfont.woff') format('woff'),
+         url('font/caecilialtstd-bold-webfont.ttf') format('truetype'),
+         url('font/caecilialtstd-bold-webfont.svg#webfont_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+#contenedor
+{
+	width: 100%;
+}
+header
+{
+	height: 100px;
+	width: 100%;
+	background-color: #fff;
+}
+#logo
+{
+	position: absolute;
+	top: 0px;
+}
+.top
+{
+	background: url(imagenes/top.svg) repeat-x;
+	height: 37px;
+}
+#cabecera
+{
+	width: 960px;
+	margin: 0 auto;
+	height:auto;
+}
+nav ul
+{
+	text-align: center;
+}
+
+nav ul li
+{
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+	padding-top: 60px;
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 18px;
+	text-shadow:1px 1px 3px #A7E0E6;
+}
+section
+{
+	width: 100%;
+	clear: both;
+	background: #32AAB4;
+
+}
+#bn-home
+{
+	/*background-image: url(imagenes/bg-home.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 980px;
+	margin: 0 auto;
+}
+section h1
+{
+	font-family: 'webfont_bold', Verdana, arial, helvetica, sans-serif;
+	color: #fff;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+#top-footer
+{
+	/*background-image:url(imagenes/a.png);
+	background-repeat: repeat-x;*/
+	width: 100%;
+	height: 10px;
+
+}
+footer
+{
+	width: 100%;
+	background: #fff;
+	clear: both;
+	height: auto;
+
+}
+#contenido-footer
+{
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
+
+
+}
+.uno
+{
+	width: 31%;
+	float: left;
+	padding: 40px 0 0 15px;
+	
+}
+.uno h2
+{
+	font-family: 'webfont_bold', Verdana, arial, helvetica, sans-serif;
+	font-size: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+	
+}
+.uno ul
+{
+	margin-left: 80px;
+}
+.uno ul li
+{
+	padding-bottom: 8px;
+	font-family: 'webfont_bold', Verdana, arial, helvetica, sans-serif;
+	font-size: 15px;
+	list-style: circle;
+	
+}
+/*#creditos
+{
+	width: 100%;
+	background: #525150;
+	height:70px;
+	
+}
+#creditos #copia
+{
+	margin-top: -15px;
+
+}
+.top
+{
+	background: url(imagenes/top.svg) repeat-x;
+
+}*/
